@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(4, 38, 62, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.conteudo{
+    width: 400px;
+    height: 500px;
+    background-color: #fdfdfd7f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5%;
+
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.div-umidade, .div-temp, .div-cidade{
+    display: flex;
+}
+
+.div-inp-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-local{
+    width: 30px;
+    height: 30px;
+}
+.img-umidade{
+    width: 25px;
+    height: 25px;
+}
+.icone-tempo{
+    width: 150px;
+}
+.btn{
+   border: none;
+   outline: none;
+   border-radius: 50px;
+   padding: 10px;
+   cursor: pointer;
+   background-color: #ffffff;
+}
+.img-busca{
+    width: 15px;
+}
+
+.temp{
+     font-size: 80px;
+     font-weight: bolder;
+}
+.cidade{
+    font-weight: 400;
+}
+
+
+.div-cidade{
+    margin-top: 10px;
+}
+.div-umidade{
+    align-items: center;
+}
+
+.info-tempo{
+    font-size: larger;
+    text-transform: capitalize;
+}
+.galo{
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: self-end;
+
+}
